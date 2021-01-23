@@ -23,7 +23,7 @@ public class MemberServcice {
     @Transactional()
     public Boolean addUser(String name){
         Boolean insert = memberMapper.insert(name);
-//        int a= 1/0;
+        int a= 1/0;
         orderMapper.insert(name);
         return insert;
     }
