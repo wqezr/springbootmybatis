@@ -26,3 +26,7 @@ spring:
      maxPoolSize: 25
      minPoolSize: 25
      uniqueResourceName: orderDataSource
+
+
+com.wqezr:
+ userName: wsj
