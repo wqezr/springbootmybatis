@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    ###会员数据库
+    member:
+     url: jdbc:mysql://127.0.0.1:3306/member
+     username: root
+     password: wsj54321
+     borrowConnectionTimeout: 30
+     loginTimeout: 30
+     maintenancelInterval: 60
+     maxIdleTime: 60
+     maxLifeTime: 20000
+     maxPoolSize: 25
+     minPoolSize: 25
+     uniqueResourceName: memberDataSource
+    ###订单数据库
+    order:
+     url: jdbc:mysql://127.0.0.1:3306/order
+     username: root
+     password: wsj54321
+     borrowConnectionTimeout: 30
+     loginTimeout: 30
+     maintenancelInterval: 60
+     maxIdleTime: 60
+     maxLifeTime: 20000
+     maxPoolSize: 25
+     minPoolSize: 25
+     uniqueResourceName: orderDataSource
