@@ -14,6 +14,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableConfigurationProperties({MemberConfig.class,OrderConfig.class})
+@EnableScheduling
 public class SpringMybatis {
 
     public static void main(String[] args) {
