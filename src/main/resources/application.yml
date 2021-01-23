@@ -27,6 +27,11 @@ spring:
      minPoolSize: 25
      uniqueResourceName: orderDataSource
 
+  profiles:
+    active: test
+
+
 
 com.wqezr:
  userName: wsj
+ url: www.wqezr.com
